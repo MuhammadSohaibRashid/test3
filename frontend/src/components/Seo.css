@@ -1,0 +1,111 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #000;
+    border-bottom: 1px solid #444;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .logo .bold {
+    font-weight: bold;
+  }
+  
+  .logo .highlight {
+    color: #a65bdb;
+  }
+  
+  .nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .sign-in, .sign-up {
+    background-color: transparent;
+    border: 1px solid #a65bdb;
+    color: #a65bdb;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .sign-up {
+    background-color: #a65bdb;
+    color: #fff;
+  }
+  
+  /* Main Section */
+  .main-content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .clipper-btn {
+    background-color: #a65bdb;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  
+  .clip-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .image-preview img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #444;
+  }
+  
+  .customize-clip {
+    width: 400px;
+    text-align: left;
+  }
+  
+  .menu button {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .menu button svg {
+    margin-right: 0.75rem;
+  }
+  
+  .transcript-box {
+    background-color: #222;
+    padding: 1rem;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    margin-top: 1rem;
+    color: #ddd;
+  }
+  

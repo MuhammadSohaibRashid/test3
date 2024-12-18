@@ -1,0 +1,31 @@
+/* src/components/LoginPage.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: #fff;
+  font-size: xxx-large ;
+  font-style: bold;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+.googlebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0f25;
+}
+
+.highlight-tag {
+  color: #8f3af5;
+  font-weight: bold;
+}
+
